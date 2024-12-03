@@ -1,0 +1,132 @@
+body{
+	font-family: 'Roboto', sans-serif;
+    color: #212121;
+    line-height: 1.6;
+    background-color: #f5f8fb;
+
+}
+
+header{
+	padding: 0px ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: left;
+}
+.header  {
+	font-size: 14px;
+    padding: 100px;
+    width: 100%;
+	background-color: beige;
+}
+
+.header 
+h1 {
+    font-size: 40px;
+	font-weight: bold;
+    margin-bottom: 10px;
+    color: #f5f8fb;
+}
+
+.header 
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #f5f8fb;
+}
+
+.download-btn {
+    padding: 10px 20px;
+    background-color: #99cb33;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f8fb;
+}
+
+.why-choose-us 
+h2 {
+    font-size: 2em;
+	font-weight: bold;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.why-choose-us p {
+    margin-bottom: 30px;
+    color: #808080;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.feature-item i {
+    font-size: 2em;
+    color: #99cb33;
+    margin-bottom: 10px;
+}
+
+.feature-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.feature-item p {
+    color: #808080;
+}
+
+.professional-work {
+    text-align: center;
+	font-weight: bold;
+    padding: 50px 20px;
+    background-color: #eef9f7;
+}
+
+.professional-work 
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #212121;
+	font-weight: bold;
+}
+
+.professional-work p {
+    margin-bottom: 30px;
+    color: #808080;
+}
+
+.work-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-item 
+img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    max-width: 300px;
+}
